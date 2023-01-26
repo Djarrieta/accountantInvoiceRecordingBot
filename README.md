@@ -5,3 +5,6 @@ The application would take care of saving the invoice photos with the appropriat
 I am confident that this application would be a great addition for your company and I would love to have the opportunity to discuss further details with you. Please do not hesitate to contact me if you have any questions or are interested in proceeding with the project.
 
 Github public repository where you can do pull requests click here. In this repo, there are issues for collaboration to the project. Functional programming in Python is proposed with a state that manages the global variables of the application and functions that receive this state and modify it or generate actions and do not modify the state.
+
+## Architecture
+Github public repository where you can do pull requests click here. In this repo, there are issues for collaboration to the project. Functional programming in Python is proposed with a state that manages the global variables of the application and functions that receive this state and modify it or generate actions and do not modify the state.
