@@ -1,0 +1,3 @@
+TELEGRAM_TOKEN=ThisIsMyTelegramToken
+OPENAI_TOKEN=ThisIsMyOpenAIToken
+CHAT_ID=ThisIsMyChatID
