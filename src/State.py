@@ -5,3 +5,4 @@ class State:
         "openaiToken": None,
         "chatId": None
     }
+    telegram: None

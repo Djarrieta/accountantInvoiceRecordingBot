@@ -1,11 +1,7 @@
-
-import os
-from dotenv import load_dotenv
+from config import *
 
 
 def getUserData(state):
-    load_dotenv()
-    state.userData["telegramToken"] = os.getenv("TELEGRAM_TOKEN")
-    state.userData["openaiToken"] = os.getenv("OPENAI_TOKEN")
-
-    state.userData["chatId"] = os.getenv("CHAT_ID")
+    state.userData["telegramToken"] = TELEGRAM_TOKEN
+    state.userData["openaiToken"] = OPENAI_TOKEN
+    state.userData["chatId"] = CHAT_ID
