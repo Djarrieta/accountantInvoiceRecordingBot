@@ -6,3 +6,4 @@ class State:
         "chatId": None
     }
     telegram: None
+    openai: None
