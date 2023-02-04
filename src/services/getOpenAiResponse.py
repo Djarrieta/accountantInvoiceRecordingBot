@@ -5,4 +5,7 @@ def getOpenAiResponse(state, input):
     response = state.openai.Completion.create(
         model="text-davinci-003", prompt=input, temperature=0.7, max_tokens=20)
 
+    if response["choices"] is None:
+        raise Exception("OpenAI response is empty")
+
     return response["choices"][0]["text"]
